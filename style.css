@@ -166,4 +166,64 @@ nav ul li a:hover::after{
     color:white;
   }
 
+  /* ABOUT */
+  .data_diri{
+    padding: 30px;
+    margin-left: 13cm;
+    margin-right: 3cm;
+    box-shadow: 1px 1px 2px;
+    font-size: 15px;
+}
+
+.about{
+    font-size: 25px;
+    margin-left: 13cm;  
+    top: 1cm;
+}
+
+.garis{
+    margin-left:13cm;
+    margin-right: 3cm;
+}
+
+.deskripsi{
+    padding: 30px;
+    margin-left: 13cm;
+    margin-right: 3cm;
+    box-shadow: 1px 1px 2px;
+    font-size: 15px;
+}
+
+.gambar{
+    height: 25px;
+    margin-left: 10cm;
+    position: absolute;
+}
+
+
+/* SKILLS */
+.skill{
+    
+    width: 100%;
+    text-align: center;
+}
+
+.table-skill{
+    width: 50%;
+    margin:auto;
+   
+}
+
+.image_skill{
+    width: 150px;
+}
+
+.judul-skill{
+    font-size: 25px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration:underline;
+    text-underline-offset: 10px;
+}
+
   
