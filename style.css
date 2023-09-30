@@ -1,0 +1,169 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.7);
+    /* border-bottom : 1px solid #513c28; */
+    padding: 5px;  
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+} 
+
+nav ul li{
+    padding: 10px 15px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size:20px;
+    font-weight:300;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color:brown;
+}
+
+nav ul li a::after{
+    content: '';
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.1rem solid brown;
+    transform: scaleX(0);
+    transition: 0.2s linear;
+}
+
+nav ul li a:hover::after{
+    transform: scaleX(0.5);
+}
+
+/* INDEX */
+.opening{
+    width:80%;
+    margin-top: 10%;
+}
+
+.hello, .full_name, .description{
+    width: 50%;
+    margin: auto;
+}
+
+.opening .full_name{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.nama{
+    color: red;
+}
+
+.foto_opening{
+    width: 100%;
+    background-color: red;
+}
+
+.foto_rahil{
+    width:40%;
+    position:relative;
+    opacity: 100%;
+    float: right;
+    margin-top:-30%;
+}
+
+.contact{
+    width:100%;
+    /* background-color: red; */
+    margin-left: 18%;
+}
+.contact a{
+    color:black;
+    margin-left:25px;
+}
+
+.contact a:hover{
+    color: brown;
+}
+
+
+/* PROJECT */
+
+.content{
+    /* background-color: white; */
+    display:inline-block;
+}
+
+.judul{
+    font-size: 25px;
+    font-weight:bolder;
+    text-align: center;
+    text-decoration:underline;
+    text-underline-offset: 10px;
+}
+
+.project{
+    display: flex;
+    width: 100%;
+    justify-content: center;  
+    gap: 8%;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    width: 20%;
+  }
+
+.card a{
+    text-decoration: none;
+    color:black;
+}
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+
+
+  .project-preview{
+        border-radius: 5px 5px 0 0;
+        width: 100%;
+  }
+
+  .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    padding: 20px 20px;
+    
+  }
+
+  .contact-footer{
+    margin:auto;
+  }
+
+  .contact-footer a{
+    text-decoration: none;
+    color:white;
+  }
+
+  
